@@ -1,0 +1,5 @@
+export const actionTypes = {
+    UPDATE_PEOPLE_DATA: 'UPDATE_PEOPLE_DATA',
+    UPDATE_PAGE_NUMBER: 'UPDATE_PAGE_NUMBER',
+
+};

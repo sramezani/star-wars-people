@@ -1,0 +1,14 @@
+{
+    "plugins": [
+        ["module-resolver", {
+            "extensions": [".js", ".jsx", ".es", ".es6"],
+            "root": ["."],
+            "alias": {
+              "@components": "./src/components",
+              "@lib": "./src/lib"
+            }
+        }],
+        ["styled-components", { "ssr": true }]
+        
+    ]
+}
